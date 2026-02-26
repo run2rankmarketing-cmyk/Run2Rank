@@ -56,7 +56,7 @@ export default function OurProcess({
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold">
+          <h2 className="md:text-5xl text-3xl font-bold">
             {title}{" "}
             <span className="text-[#f97316]">{highlight}</span>
           </h2>

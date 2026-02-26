@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="max-w-6xl mx-auto px-6 py-24 text-center">
         
         {/* Heading */}
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        <h1 className="md:text-5xl text-3xl font-bold leading-tight">
           Ready to Take Your Business from{" "}
           <span className="text-[#f97316]">0 to 1?</span>
         </h1>

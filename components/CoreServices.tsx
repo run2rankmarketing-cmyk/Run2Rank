@@ -7,7 +7,7 @@ export default function CoreServices() {
 
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-6xl font-bold tracking-tight">
+          <h2 className="md:text-5xl text-3xlfont-bold tracking-tight">
             Our Core{" "}
             <span className="text-[#f97316]">Services</span>
           </h2>

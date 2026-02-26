@@ -8,7 +8,7 @@ export default function WhoWeAre() {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold">
+          <h2 className="md:text-5xl text-3xl font-bold">
             Who <span className="text-[#f97316]">We Are</span>
           </h2>
           <p className="mt-6 text-lg text-zinc-400 max-w-3xl mx-auto">

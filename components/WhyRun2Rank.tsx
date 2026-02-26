@@ -33,7 +33,7 @@ export default function WhyRun2Rank({
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#111_0%,_#000_60%)] -z-10" />
 
       {/* Heading */}
-      <h1 className="text-5xl md:text-6xl font-bold text-center mb-16">
+      <h1 className="md:text-5xl text-3xlfont-bold text-center mb-16">
         {title}{" "}
         <span className="text-[#f97316]">
           {highlight}
