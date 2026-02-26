@@ -30,11 +30,11 @@ export default function AboutSection() {
     <section className="bg-black text-white">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-900/40 via-black to-black" />
+        <div className="absolute inset-0 bg-black" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 text-center">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-            About <span className="text-orange-500">Run2Rank</span>
+            About <span className="text-[#f97316]">Run2Rank</span>
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ export default function AboutSection() {
                 key={index}
                 className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-10 text-center hover:border-orange-500/40 transition duration-300"
               >
-                <Icon className="mx-auto text-orange-500" size={40} />
+                <Icon className="mx-auto text-[#f97316]" size={40} />
                 <h3 className="mt-6 text-4xl font-bold text-white">
                   {stat.value}
                 </h3>

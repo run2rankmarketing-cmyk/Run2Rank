@@ -10,16 +10,11 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           {/* Lightning Icon */}
-          <div className="text-orange-500 text-2xl font-bold">
-            ⚡
-          </div>
-
-          {/* Blue Logo Box */}
-          <div className="bg-blue-600 px-4 py-2 rounded-sm">
-            <span className="text-white font-semibold text-xl tracking-wide">
-              Run2Rank
-            </span>
-          </div>
+        <span className="text-[#f97316] text-2xl">⚡</span>
+              <span className="text-white font-semibold text-xl">
+                Run<span className="text-[#f97316]">2Rank</span>
+              </span>
+         
         </div>
 
         {/* Navigation */}
@@ -31,15 +26,15 @@ export default function Header() {
             Home
           </Link>
 
-          <Link href="#" className="text-gray-300 hover:text-white transition">
+          <Link href="about-us" className="text-gray-300 hover:text-white transition">
             About Us
           </Link>
 
-          <Link href="#" className="text-gray-300 hover:text-white transition">
+          <Link href="/services" className="text-gray-300 hover:text-white transition">
             Services
           </Link>
 
-          <Link href="#" className="text-gray-300 hover:text-white transition">
+          <Link href="/portfolio" className="text-gray-300 hover:text-white transition">
             Portfolio
           </Link>
 
@@ -47,14 +42,14 @@ export default function Header() {
             Blog
           </Link>
 
-          <Link href="#" className="text-gray-300 hover:text-white transition">
+          <Link href="/contact-us" className="text-gray-300 hover:text-white transition">
             Contact
           </Link>
         </nav>
 
         {/* CTA Button */}
         <div>
-          <button className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
+          <button className="bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
             Get Started
           </button>
         </div>

@@ -80,7 +80,7 @@ export default function ContactSection() {
             {/* Submit */}
             <button
               type="submit"
-              className="w-full flex items-center justify-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 rounded-xl transition shadow-lg hover:shadow-orange-500/30"
+              className="w-full flex items-center justify-center gap-3 bg-[#f97316] hover:bg-orange-600 text-white font-semibold py-4 rounded-xl transition shadow-lg hover:shadow-orange-500/30"
             >
               Send Message
               <PaperAirplaneIcon className="w-5 h-5" />
@@ -93,7 +93,7 @@ export default function ContactSection() {
           {/* Email */}
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
             <div className="bg-orange-500/10 p-3 w-fit rounded-lg mb-4">
-              <EnvelopeIcon className="w-6 h-6 text-orange-500" />
+              <EnvelopeIcon className="w-6 h-6 text-[#f97316]" />
             </div>
             <p className="text-gray-400">Email Us</p>
             <p className="text-white font-medium">hello@run2rank.com</p>
@@ -102,7 +102,7 @@ export default function ContactSection() {
           {/* Phone */}
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
             <div className="bg-orange-500/10 p-3 w-fit rounded-lg mb-4">
-              <PhoneIcon className="w-6 h-6 text-orange-500" />
+              <PhoneIcon className="w-6 h-6 text-[#f97316]" />
             </div>
             <p className="text-gray-400">Call Us</p>
             <p className="text-white font-medium">+91 123 456 7890</p>
@@ -111,7 +111,7 @@ export default function ContactSection() {
           {/* Location */}
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
             <div className="bg-orange-500/10 p-3 w-fit rounded-lg mb-4">
-              <MapPinIcon className="w-6 h-6 text-orange-500" />
+              <MapPinIcon className="w-6 h-6 text-[#f97316]" />
             </div>
             <p className="text-gray-400 mb-2">Our Presence</p>
             <ul className="text-gray-300 space-y-1 text-sm">
@@ -134,7 +134,7 @@ export default function ContactSection() {
                 "Transparent reporting",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-gray-300">
-                  <CheckCircleIcon className="w-5 h-5 text-orange-500" />
+                  <CheckCircleIcon className="w-5 h-5 text-[#f97316]" />
                   {item}
                 </li>
               ))}

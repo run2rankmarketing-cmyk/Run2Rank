@@ -18,7 +18,7 @@ export default function WhyChooseUs() {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-16">
           Why Choose{" "}
-          <span className="text-orange-500">Our Services?</span>
+          <span className="text-[#f97316]">Our Services?</span>
         </h2>
 
         {/* Grid */}
@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
               key={index}
               className="flex items-center gap-4 bg-zinc-900 border border-zinc-800 rounded-xl px-6 py-6 hover:border-orange-500 transition duration-300"
             >
-              <CheckCircleIcon className="h-7 w-7 text-orange-500" />
+              <CheckCircleIcon className="h-7 w-7 text-[#f97316]" />
               <p className="text-white text-lg font-medium">
                 {feature}
               </p>

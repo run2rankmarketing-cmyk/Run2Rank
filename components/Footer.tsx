@@ -14,9 +14,9 @@ export default function Footer() {
           {/* Column 1 */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-orange-500 text-2xl">⚡</span>
+              <span className="text-[#f97316] text-2xl">⚡</span>
               <span className="text-white font-semibold text-xl">
-                Run<span className="text-orange-500">2Rank</span>
+                Run<span className="text-[#f97316]">2Rank</span>
               </span>
             </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
                   <li key={i}>
                     <Link
                       href="#"
-                      className="hover:text-orange-500 transition"
+                      className="hover:text-[#f97316] transition"
                     >
                       {item}
                     </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
                 <li key={i}>
                   <Link
                     href="#"
-                    className="hover:text-orange-500 transition"
+                    className="hover:text-[#f97316] transition"
                   >
                     {item}
                   </Link>
@@ -92,17 +92,17 @@ export default function Footer() {
 
             <div className="space-y-5">
               <div className="flex items-center gap-3">
-                <Mail size={18} className="text-orange-500" />
+                <Mail size={18} className="text-[#f97316]" />
                 <span>hello@run2rank.com</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <Phone size={18} className="text-orange-500" />
+                <Phone size={18} className="text-[#f97316]" />
                 <span>+91 123 456 7890</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <MapPin size={18} className="text-orange-500 mt-1" />
+                <MapPin size={18} className="text-[#f97316] mt-1" />
                 <span>India • United States • United Kingdom</span>
               </div>
             </div>
@@ -115,10 +115,10 @@ export default function Footer() {
           <p>© 2026 Run2Rank. All rights reserved.</p>
 
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-orange-500 transition">
+            <Link href="#" className="hover:text-[#f97316] transition">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:text-orange-500 transition">
+            <Link href="#" className="hover:text-[#f97316] transition">
               Terms of Service
             </Link>
           </div>

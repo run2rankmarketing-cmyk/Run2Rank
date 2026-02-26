@@ -13,7 +13,7 @@ export default function DirectCallCTA() {
           Schedule a free strategy call with our team
         </p>
 
-        <button className="mt-8 px-8 py-3 bg-orange-500 hover:bg-orange-600 transition-colors duration-300 text-white font-semibold rounded-lg shadow-lg hover:shadow-orange-500/30">
+        <button className="mt-8 px-8 py-3 bg-[#f97316] hover:bg-orange-600 transition-colors duration-300 text-white font-semibold rounded-lg shadow-lg hover:shadow-orange-500/30">
           Book a Free Consultation
         </button>
       </div>

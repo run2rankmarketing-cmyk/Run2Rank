@@ -11,7 +11,7 @@ export default function OurStorySection() {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold">
-              Our <span className="text-orange-500">Story</span>
+              Our <span className="text-[#f97316]">Story</span>
             </h2>
 
             <div className="mt-8 space-y-6 text-gray-300 text-lg leading-relaxed">
@@ -30,7 +30,7 @@ export default function OurStorySection() {
                 For years, we've served the Indian market, helping businesses
                 establish credibility and visibility online. Over the last two years,
                 we've expanded into the{" "}
-                <span className="text-orange-500 font-medium">US and UK</span>,
+                <span className="text-[#f97316]">US and UK</span>,
                 delivering global-level execution with a growth-first mindset.
               </p>
             </div>

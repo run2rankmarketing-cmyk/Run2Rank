@@ -17,7 +17,7 @@ export default function ServicesSection() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Our <span className="text-orange-500">Services</span>
+            Our <span className="text-[#f97316]">Services</span>
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             We focus on two powerful growth pillars for your business success
@@ -29,7 +29,7 @@ export default function ServicesSection() {
           {/* Left Image */}
           <div className="relative w-full h-[500px] rounded-2xl overflow-hidden">
             <Image
-              src="/digital-marketing.jpg" // replace with your image
+              src="/images/digital-marketing.jpeg" // replace with your image
               alt="Digital Marketing"
               fill
               className="object-cover"
@@ -44,7 +44,7 @@ export default function ServicesSection() {
             </div>
 
             <h3 className="text-3xl font-bold mb-3">
-              Website <span className="text-orange-500">Development</span>
+              Website <span className="text-[#f97316]">Development</span>
             </h3>
 
             <p className="text-lg font-semibold mb-4">
@@ -74,7 +74,7 @@ export default function ServicesSection() {
               ))}
             </ul>
 
-            <button className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
+            <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
               Get a Website Built for Growth
               <ArrowRight size={18} />
             </button>

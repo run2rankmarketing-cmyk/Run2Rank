@@ -64,7 +64,7 @@ export default function Testimonials({
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold">
             {title}{" "}
-            <span className="text-[#ff7a1a]">{highlight}</span>
+            <span className="text-[#f97316]">{highlight}</span>
           </h2>
         </div>
 
@@ -75,7 +75,7 @@ export default function Testimonials({
               key={index}
               className="bg-[#111111] border border-[#1f1f1f]
                          rounded-2xl p-8
-                         hover:border-[#ff7a1a]
+                         hover:border-[#f97316]
                          transition-all duration-300"
             >
               {/* Stars */}
@@ -83,7 +83,7 @@ export default function Testimonials({
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
-                    className="w-5 h-5 text-[#ff7a1a] fill-[#ff7a1a]"
+                    className="w-5 h-5 text-[#f97316] fill-[#ff7a1a]"
                   />
                 ))}
               </div>

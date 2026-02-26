@@ -26,7 +26,7 @@ export default function SeoServicesSection() {
 
             {/* Title */}
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              SEO <span className="text-orange-500">Services</span>
+              SEO <span className="text-[#f97316]">Services</span>
             </h2>
 
             <p className="text-lg font-semibold mb-4">
@@ -64,7 +64,7 @@ export default function SeoServicesSection() {
             </div>
 
             {/* CTA */}
-            <button className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
+            <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
               Start Ranking Today
               <ArrowRight size={18} />
             </button>
@@ -73,7 +73,7 @@ export default function SeoServicesSection() {
           {/* RIGHT IMAGE */}
           <div className="relative w-full h-[520px] rounded-2xl overflow-hidden">
             <Image
-              src="/seo-image.jpg" // replace with your image
+              src="/images/seo-image.jpg" // replace with your image
               alt="SEO Dashboard"
               fill
               className="object-cover"

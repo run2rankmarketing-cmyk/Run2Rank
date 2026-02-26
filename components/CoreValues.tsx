@@ -49,7 +49,7 @@ export default function CoreValues() {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16">
           Our Core{" "}
-          <span className="text-orange-500">Values</span>
+          <span className="text-[#f97316]">Values</span>
         </h2>
 
         {/* Grid */}

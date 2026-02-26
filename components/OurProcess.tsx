@@ -58,7 +58,7 @@ export default function OurProcess({
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold">
             {title}{" "}
-            <span className="text-[#ff7a1a]">{highlight}</span>
+            <span className="text-[#f97316]">{highlight}</span>
           </h2>
           <p className="mt-4 text-lg md:text-xl text-gray-300">
             {subtitle}
@@ -72,11 +72,11 @@ export default function OurProcess({
               key={step.number}
               className="relative bg-[#111111] border border-[#1f1f1f]
                          rounded-2xl p-8
-                         hover:border-[#ff7a1a]
+                         hover:border-[#f97316]
                          transition-all duration-300"
             >
               {/* Number Circle */}
-              <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#ff7a1a] text-black text-xl font-bold mb-6">
+              <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#f97316] text-black text-xl font-bold mb-6">
                 {step.number}
               </div>
 

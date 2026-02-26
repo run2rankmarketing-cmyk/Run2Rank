@@ -42,7 +42,7 @@ export default function TeamSection() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Meet Our <span className="text-orange-500">Team</span>
+            Meet Our <span className="text-[#f97316]">Team</span>
           </h2>
 
           <p className="mt-6 text-zinc-400 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -73,7 +73,7 @@ export default function TeamSection() {
                 {member.name}
               </h3>
 
-              <p className="text-orange-500 font-medium mt-1">
+              <p className="text-[#f97316] font-medium mt-1">
                 {member.role}
               </p>
 

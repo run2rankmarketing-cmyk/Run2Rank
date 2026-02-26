@@ -10,7 +10,7 @@ export default function HeroSection() {
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Ready to Take Your Business from{" "}
-          <span className="text-orange-500">0 to 1?</span>
+          <span className="text-[#f97316]">0 to 1?</span>
         </h1>
 
         {/* Subheading */}
@@ -20,7 +20,7 @@ export default function HeroSection() {
 
         {/* CTA Button */}
         <div className="mt-10">
-          <button className="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/40">
+          <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/40">
             Book a Free Strategy Call
             <span className="text-xl">→</span>
           </button>

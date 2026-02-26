@@ -9,7 +9,7 @@ export default function CTASection() {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
           Ready to{" "}
-          <span className="text-orange-500">Grow Your Business?</span>
+          <span className="text-[#f97316]">Grow Your Business?</span>
         </h2>
 
         {/* Subtext */}
@@ -19,7 +19,7 @@ export default function CTASection() {
 
         {/* Button */}
         <div className="mt-10">
-          <button className="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-orange-500/30">
+          <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-orange-500/30">
             Schedule a Free Consultation
             <ArrowRightIcon className="w-5 h-5" />
           </button>

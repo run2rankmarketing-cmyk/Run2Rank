@@ -9,7 +9,7 @@ export default function CoreServices() {
         <div className="text-center mb-20">
           <h2 className="text-6xl font-bold tracking-tight">
             Our Core{" "}
-            <span className="text-orange-500">Services</span>
+            <span className="text-[#f97316]">Services</span>
           </h2>
           <p className="text-zinc-400 mt-6 text-xl">
             Two powerful pillars for your digital growth
@@ -22,7 +22,7 @@ export default function CoreServices() {
           {/* Card 1 */}
           <div className="relative bg-[#0b0b0b] border border-zinc-800 rounded-2xl p-12 hover:border-orange-500/40 transition-all duration-300">
 
-            <Code2 className="text-orange-500 w-10 h-10 mb-8" />
+            <Code2 className="text-[#f97316] w-10 h-10 mb-8" />
 
             <h3 className="text-2xl font-semibold mb-6">
               Website Development
@@ -41,7 +41,7 @@ export default function CoreServices() {
                 "Conversion-driven architecture",
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-4 text-zinc-300 text-lg">
-                  <CheckCircle2 className="text-orange-500 w-5 h-5" />
+                  <CheckCircle2 className="text-[#f97316] w-5 h-5" />
                   {item}
                 </li>
               ))}
@@ -56,7 +56,7 @@ export default function CoreServices() {
           {/* Card 2 */}
           <div className="relative bg-[#0b0b0b] border border-zinc-800 rounded-2xl p-12 hover:border-orange-500/40 transition-all duration-300">
 
-            <TrendingUp className="text-orange-500 w-10 h-10 mb-8" />
+            <TrendingUp className="text-[#f97316] w-10 h-10 mb-8" />
 
             <h3 className="text-2xl font-semibold mb-6">
               SEO Services
@@ -74,13 +74,13 @@ export default function CoreServices() {
                 "Local & International SEO",
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-4 text-zinc-300 text-lg">
-                  <CheckCircle2 className="text-orange-500 w-5 h-5" />
+                  <CheckCircle2 className="text-[#f97316] w-5 h-5" />
                   {item}
                 </li>
               ))}
             </ul>
 
-            <button className="group inline-flex items-center gap-3 border border-orange-500 text-orange-500 px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
+            <button className="group inline-flex items-center gap-3 border border-[#f97316] text-[#f97316] px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
               Learn More
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
             </button>

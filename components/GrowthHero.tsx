@@ -7,7 +7,7 @@ export default function GrowthHero() {
       <div className="relative max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Let&apos;s Build Your{" "}
-          <span className="text-orange-500">Growth Strategy</span>
+          <span className="text-[#f97316]">Growth Strategy</span>
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">

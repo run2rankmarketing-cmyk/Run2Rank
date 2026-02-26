@@ -41,7 +41,7 @@ export default function StatsSection() {
                          hover:border-orange-500/40 transition-all duration-300"
             >
               <div className="flex justify-center mb-6">
-                <Icon className="text-orange-500 w-10 h-10" />
+                <Icon className="text-[#f97316] w-10 h-10" />
               </div>
 
               <h3 className="text-4xl font-bold text-white mb-2">
