@@ -49,7 +49,7 @@ export default function CoreValues() {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16">
           Our Core{" "}
-          <span className="text-[#39FF14]">Values</span>
+          <span className="text-[#f97316]">Values</span>
         </h2>
 
         {/* Grid */}
@@ -63,7 +63,7 @@ export default function CoreValues() {
                 className="group rounded-2xl border border-white/10 bg-gradient-to-br from-zinc-900 to-black p-8 transition-all duration-500 hover:border-orange-500/40 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)]"
               >
                 {/* Icon */}
-                <div className="mb-6 w-14 h-14 flex items-center justify-center rounded-full text-[#39FF14]">
+                <div className="mb-6 w-14 h-14 flex items-center justify-center rounded-full text-orange-500">
                   <Icon size={44} />
                 </div>
 

@@ -12,25 +12,25 @@ const team: TeamMember[] = [
     name: "Amit Verma",
     role: "Founder & CEO",
     description: "15+ years in digital marketing and growth strategy",
-    image: "/team/member1.jpg",
+    image: "/images/member1.png",
   },
   {
     name: "Sneha Patel",
     role: "Head of SEO",
     description: "Expert in technical and international SEO",
-    image: "/team/member2.jpg",
+    image: "/images/member2.png",
   },
   {
     name: "Rahul Desai",
     role: "Lead Developer",
     description: "Specialist in performance-driven web development",
-    image: "/team/member3.jpg",
+    image: "/images/member3.png",
   },
   {
     name: "Priya Menon",
     role: "Content Strategist",
     description: "Creates content strategies that rank and convert",
-    image: "/team/member4.jpg",
+    image: "/images/membe4.png",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function TeamSection() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Meet Our <span className="text-[#39FF14]">Team</span>
+            Meet Our <span className="text-[#f97316]">Team</span>
           </h2>
 
           <p className="mt-6 text-zinc-400 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -64,7 +64,7 @@ export default function TeamSection() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-64 object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-72 object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
@@ -73,7 +73,7 @@ export default function TeamSection() {
                 {member.name}
               </h3>
 
-              <p className="text-[#39FF14] font-medium mt-1">
+              <p className="text-[#f97316] font-medium mt-1">
                 {member.role}
               </p>
 

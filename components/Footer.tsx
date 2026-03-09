@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
 
             {/* Social Icons */}
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {[Linkedin, Twitter, Facebook, Instagram].map((Icon, i) => (
                 <div
                   key={i}
@@ -35,7 +35,7 @@ export default function Footer() {
                   <Icon size={18} />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Column 2 */}
@@ -43,20 +43,24 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-6 text-lg">
               Quick Links
             </h3>
-            <ul className="space-y-4">
-              {["Home", "About Us", "Services", "Portfolio", "Blog"].map(
-                (item, i) => (
-                  <li key={i}>
-                    <Link
-                      href="#"
-                      className="hover:text-[#39FF14] transition"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                )
-              )}
-            </ul>
+         <ul className="space-y-4">
+  {[
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Services", href: "/services" },
+    { name: "Portfolio", href: "/portfolio" },
+    { name: "Blog", href: "/contact-us" }, // if you mean contact page
+  ].map((item, i) => (
+    <li key={i}>
+      <Link
+        href={item.href}
+        className="hover:text-[#f97316] transition"
+      >
+        {item.name}
+      </Link>
+    </li>
+  ))}
+</ul>
           </div>
 
           {/* Column 3 */}
@@ -75,7 +79,7 @@ export default function Footer() {
                 <li key={i}>
                   <Link
                     href="#"
-                    className="hover:text-[#39FF14] transition"
+                    className="hover:text-[#f97316] transition"
                   >
                     {item}
                   </Link>
@@ -92,18 +96,20 @@ export default function Footer() {
 
             <div className="space-y-5">
               <div className="flex items-center gap-3">
-                <Mail size={18} className="text-[#39FF14]" />
-                <span>hello@run2rank.com</span>
+                <Mail size={18} className="text-[#f97316]" />
+                <a href="mailto: Support@run2rank.com">  <span> Support@run2rank.com</span></a> 
               </div>
 
               <div className="flex items-center gap-3">
-                <Phone size={18} className="text-[#39FF14]" />
-                <span>+91 123 456 7890</span>
+                <Phone size={18} className="text-[#f97316]" />
+             <a href="tel:+19294051235">
+    1 929 405 1235
+  </a>
               </div>
 
               <div className="flex items-start gap-3">
-                <MapPin size={18} className="text-[#39FF14] mt-1" />
-                <span>India • United States • United Kingdom</span>
+                <MapPin size={18} className="text-[#f97316] mt-1" />
+                <span>Address - 8 The Green, STE B Dover, DE 19901</span>
               </div>
             </div>
           </div>
@@ -115,10 +121,10 @@ export default function Footer() {
           <p>© 2026 Run2Rank. All rights reserved.</p>
 
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-[#39FF14] transition">
+            <Link href="#" className="hover:text-[#f97316] transition">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:text-[#39FF14] transition">
+            <Link href="#" className="hover:text-[#f97316] transition">
               Terms of Service
             </Link>
           </div>

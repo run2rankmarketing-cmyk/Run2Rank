@@ -20,13 +20,13 @@ export default function SeoServicesSection() {
           {/* LEFT CONTENT */}
           <div>
             {/* Icon */}
-            <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-orange-500/10 text-[#39FF14] mb-6">
+            <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-orange-500/10 text-orange-500 mb-6">
               <TrendingUp size={24} />
             </div>
 
             {/* Title */}
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              SEO <span className="text-[#39FF14]">Services</span>
+              SEO <span className="text-[#f97316]">Services</span>
             </h2>
 
             <p className="text-lg font-semibold mb-4">
@@ -50,7 +50,7 @@ export default function SeoServicesSection() {
                 "Analytics & Reporting",
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-3">
-                  <span className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500/10 text-[#39FF14]">
+                  <span className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500/10 text-orange-500">
                     <Check size={16} />
                   </span>
                   <span className="text-gray-300">{item}</span>
@@ -59,12 +59,12 @@ export default function SeoServicesSection() {
             </ul>
 
             {/* Highlight Box */}
-            <div className="border border-orange-500/30 bg-orange-500/5 rounded-lg px-5 py-4 mb-6 text-sm text-[#39FF14]">
+            <div className="border border-orange-500/30 bg-orange-500/5 rounded-lg px-5 py-4 mb-6 text-sm text-orange-400">
               SEO is not an expense — it’s a long-term asset.
             </div>
 
             {/* CTA */}
-            <button className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#39FF14] transition px-6 py-3 rounded-lg font-medium">
+            <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
               Start Ranking Today
               <ArrowRight size={18} />
             </button>
@@ -84,8 +84,8 @@ export default function SeoServicesSection() {
         {/* 🔥 Bottom 4 Feature Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
-          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-[#39FF14] transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-[#39FF14] mb-4">
+          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-orange-500/40 transition">
+            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-orange-500 mb-4">
               <Target size={20} />
             </div>
             <p className="text-gray-400 group-hover:text-gray-300 text-sm">
@@ -94,8 +94,8 @@ export default function SeoServicesSection() {
           </div>
 
           {/* Card 2 */}
-          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-[#39FF14] transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-[#39FF14] mb-4">
+          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-orange-500/40 transition">
+            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-orange-500 mb-4">
               <FileText size={20} />
             </div>
             <p className="text-gray-400 group-hover:text-gray-300 text-sm">
@@ -104,8 +104,8 @@ export default function SeoServicesSection() {
           </div>
 
           {/* Card 3 */}
-          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-[#39FF14] transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-[#39FF14] mb-4">
+          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-orange-500/40 transition">
+            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-orange-500 mb-4">
               <BarChart3 size={20} />
             </div>
             <p className="text-gray-400 group-hover:text-gray-300 text-sm">
@@ -114,8 +114,8 @@ export default function SeoServicesSection() {
           </div>
 
           {/* Card 4 */}
-          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-[#39FF14] transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-[#39FF14] mb-4">
+          <div className="group bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-orange-500/40 transition">
+            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-500/10 text-orange-500 mb-4">
               <Globe size={20} />
             </div>
             <p className="text-gray-400 group-hover:text-gray-300 text-sm">
