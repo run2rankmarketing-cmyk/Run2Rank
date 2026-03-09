@@ -15,19 +15,19 @@ export default function Hero() {
       <div className="relative max-w-[1100px] mx-auto px-6 pt-32 pb-28 text-center">
         
         {/* Trusted Badge */}
-        <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-orange-500/30 bg-orange-500/10 text-orange-400 text-sm mb-8">
+        <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-orange-500/30 bg-orange-500/10 text-[#39FF14] text-sm mb-8">
           🚀 Trusted by 200+ Businesses Worldwide
         </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-8">
           From{" "}
-          <span className="text-[#f97316]">Zero
+          <span className="text-[#39FF14]">Zero
           to
           Ranked.</span>
           <br />
           From Idea to{" "}
-          <span className="text-[#f97316]">Impact.</span>
+          <span className="text-[#39FF14]">Impact.</span>
         </h1>
 
         {/* Subtext */}
@@ -42,7 +42,7 @@ export default function Hero() {
           {/* Primary Button */}
           <Link
             href="#"
-            className="bg-[#f97316] hover:bg-orange-700 transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg shadow-orange-600/20"
+            className="bg-[#39FF14] hover:bg-[#39FF14] transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg shadow-orange-600/20"
           >
             Get a Free Consultation →
           </Link>
@@ -58,8 +58,8 @@ export default function Hero() {
 
         {/* Scroll Indicator */}
         <div className="mt-20 flex justify-center">
-          <div className="w-7 h-12 border-2 border-orange-500 rounded-full flex justify-center items-start p-1">
-            <div className="w-1.5 h-3 bg-orange-500 rounded-full animate-bounce" />
+          <div className="w-7 h-12 border-2 border-[#39FF14] rounded-full flex justify-center items-start p-1">
+            <div className="w-1.5 h-3 bg-[#39FF14] rounded-full animate-bounce" />
           </div>
         </div>
 

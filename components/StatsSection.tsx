@@ -38,10 +38,10 @@ export default function StatsSection() {
             <div
               key={stat.id}
               className="bg-[#0c0c0c] border border-zinc-800 rounded-2xl p-10 text-center 
-                         hover:border-orange-500/40 transition-all duration-300"
+                         hover:border-[#39FF14] transition-all duration-300"
             >
               <div className="flex justify-center mb-6">
-                <Icon className="text-[#f97316] w-10 h-10" />
+                <Icon className="text-[#39FF14] w-10 h-10" />
               </div>
 
               <h3 className="text-4xl font-bold text-white mb-2">

@@ -15,9 +15,9 @@ export default function Header() {
         
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <span className="text-[#f97316] text-2xl">⚡</span>
+          <span className="text-[#39FF14] text-2xl">⚡</span>
           <span className="text-white font-semibold text-xl">
-            Run<span className="text-[#f97316]">2Rank</span>
+            Run<span className="text-[#39FF14]">2Rank</span>
           </span>
         </div>
 
@@ -26,42 +26,42 @@ export default function Header() {
           <Link
             href="/"
             className={`relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] 
-                        ${isActive("/") ? "text-orange-500 after:bg-orange-500" : "text-gray-300 hover:text-white after:hidden"}`}
+                        ${isActive("/") ? "text-[#39FF14] after:bg-[#39FF14]" : "text-gray-300 hover:text-white after:hidden"}`}
           >
             Home
           </Link>
 
           <Link
             href="/about-us"
-            className={`relative ${isActive("/about-us") ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500" : "text-gray-300 hover:text-white"}`}
+            className={`relative ${isActive("/about-us") ? "text-[#39FF14] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-[#39FF14]" : "text-gray-300 hover:text-white"}`}
           >
             About Us
           </Link>
 
           <Link
             href="/services"
-            className={`relative ${isActive("/services") ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500" : "text-gray-300 hover:text-white"}`}
+            className={`relative ${isActive("/services") ? "text-[#39FF14] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-[#39FF14]" : "text-gray-300 hover:text-white"}`}
           >
             Services
           </Link>
 
           <Link
             href="/portfolio"
-            className={`relative ${isActive("/portfolio") ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500" : "text-gray-300 hover:text-white"}`}
+            className={`relative ${isActive("/portfolio") ? "text-[#39FF14] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-[#39FF14]" : "text-gray-300 hover:text-white"}`}
           >
             Portfolio
           </Link>
 
           <Link
             href="#"
-            className={`relative ${isActive("/blog") ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500" : "text-gray-300 hover:text-white"}`}
+            className={`relative ${isActive("/blog") ? "text-[#39FF14] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-[#39FF14]" : "text-gray-300 hover:text-white"}`}
           >
             Blog
           </Link>
 
           <Link
             href="/contact-us"
-            className={`relative ${isActive("/contact-us") ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500" : "text-gray-300 hover:text-white"}`}
+            className={`relative ${isActive("/contact-us") ? "text-[#39FF14] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-[#39FF14]" : "text-gray-300 hover:text-white"}`}
           >
             Contact
           </Link>
@@ -69,7 +69,7 @@ export default function Header() {
 
         {/* CTA Button */}
         <div>
-          <button className="bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
+          <button className="bg-[#39FF14] hover:bg-[#39FF14] transition px-6 py-3 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
             Get Started
           </button>
         </div>

@@ -49,7 +49,7 @@ export default function Footer() {
                   <li key={i}>
                     <Link
                       href="#"
-                      className="hover:text-[#f97316] transition"
+                      className="hover:text-[#39FF14] transition"
                     >
                       {item}
                     </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
                 <li key={i}>
                   <Link
                     href="#"
-                    className="hover:text-[#f97316] transition"
+                    className="hover:text-[#39FF14] transition"
                   >
                     {item}
                   </Link>
@@ -92,17 +92,17 @@ export default function Footer() {
 
             <div className="space-y-5">
               <div className="flex items-center gap-3">
-                <Mail size={18} className="text-[#f97316]" />
+                <Mail size={18} className="text-[#39FF14]" />
                 <span>hello@run2rank.com</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <Phone size={18} className="text-[#f97316]" />
+                <Phone size={18} className="text-[#39FF14]" />
                 <span>+91 123 456 7890</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <MapPin size={18} className="text-[#f97316] mt-1" />
+                <MapPin size={18} className="text-[#39FF14] mt-1" />
                 <span>India • United States • United Kingdom</span>
               </div>
             </div>
@@ -115,10 +115,10 @@ export default function Footer() {
           <p>© 2026 Run2Rank. All rights reserved.</p>
 
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-[#f97316] transition">
+            <Link href="#" className="hover:text-[#39FF14] transition">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:text-[#f97316] transition">
+            <Link href="#" className="hover:text-[#39FF14] transition">
               Terms of Service
             </Link>
           </div>

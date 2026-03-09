@@ -167,7 +167,7 @@ export default function PortfolioSection() {
         {/* Header */}
         <div className="text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Our <span className="text-[#f97316]">Portfolio</span>
+            Our <span className="text-[#39FF14]">Portfolio</span>
           </h2>
           <p className="text-gray-400 mt-4">
             Real results from real businesses. See how we've helped
@@ -183,8 +183,8 @@ export default function PortfolioSection() {
               onClick={() => setActiveCategory(cat)}
               className={`px-5 py-2 rounded-full text-sm transition-all border ${
                 activeCategory === cat
-                  ? "bg-[#f97316] text-white border-orange-500 shadow-lg shadow-orange-500/30"
-                  : "border-gray-700 text-gray-300 hover:border-orange-500 hover:text-white"
+                  ? "bg-[#39FF14] text-white border-[#39FF14]shadow-lg shadow-orange-500/30"
+                  : "border-gray-700 text-gray-300 hover:border-[#39FF14] hover:text-white"
               }`}
             >
               {cat}
@@ -197,7 +197,7 @@ export default function PortfolioSection() {
           {filtered.map((item) => (
             <div
               key={item.id}
-              className="bg-neutral-900 border border-neutral-800 rounded-2xl overflow-hidden hover:border-orange-500/50 transition duration-300"
+              className="bg-neutral-900 border border-neutral-800 rounded-2xl overflow-hidden hover:border-[#39FF14] transition duration-300"
             >
               {/* Image */}
               <div className="relative h-64 w-full">
@@ -216,7 +216,7 @@ export default function PortfolioSection() {
                   {item.categories.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-3 py-1 bg-orange-500/10 text-[#f97316] rounded-full"
+                      className="text-xs px-3 py-1 bg-orange-500/10 text-[#39FF14] rounded-full"
                     >
                       {tag}
                     </span>
@@ -249,7 +249,7 @@ export default function PortfolioSection() {
 
                 {/* Challenge */}
                 <div className="mb-4">
-                  <h4 className="text-[#f97316] font-medium mb-2">
+                  <h4 className="text-[#39FF14] font-medium mb-2">
                     Challenge
                   </h4>
                   <p className="text-gray-400 text-sm">
@@ -259,7 +259,7 @@ export default function PortfolioSection() {
 
                 {/* Solution */}
                 <div className="mb-6">
-                  <h4 className="text-[#f97316] font-medium mb-2">
+                  <h4 className="text-[#39FF14] font-medium mb-2">
                     Solution
                   </h4>
                   <p className="text-gray-400 text-sm">
@@ -269,7 +269,7 @@ export default function PortfolioSection() {
 
                 {/* Results */}
                 <div className="mb-6">
-                  <h4 className="text-[#f97316] font-medium mb-3">
+                  <h4 className="text-[#39FF14] font-medium mb-3">
                     Results
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -285,7 +285,7 @@ export default function PortfolioSection() {
                 </div>
 
                 {/* CTA */}
-                <button className="w-full bg-[#f97316] hover:bg-orange-600 transition rounded-lg py-3 font-medium flex items-center justify-center gap-2">
+                <button className="w-full bg-[#39FF14] hover:bg-[#39FF14] transition rounded-lg py-3 font-medium flex items-center justify-center gap-2">
                   View Full Case Study
                   <ExternalLink size={16} />
                 </button>

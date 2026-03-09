@@ -27,10 +27,10 @@ export default function MissionVision() {
         </div>
 
         {/* Vision Card */}
-        <div className="relative group rounded-2xl border border-white/10 bg-gradient-to-br from-zinc-900 to-black p-10 transition-all duration-500 hover:border-orange-500/40 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)]">
+        <div className="relative group rounded-2xl border border-white/10 bg-gradient-to-br from-zinc-900 to-black p-10 transition-all duration-500 hover:border-[#39FF14] hover:shadow-[0_0_40px_rgba(249,115,22,0.15)]">
           
           <div className="mb-6">
-            <div className="w-14 h-14 flex items-center justify-center rounded-full border-2 border-orange-500 text-orange-500">
+            <div className="w-14 h-14 flex items-center justify-center rounded-full border-2 border-[#39FF14] text-[#39FF14]">
               <Eye size={28} />
             </div>
           </div>

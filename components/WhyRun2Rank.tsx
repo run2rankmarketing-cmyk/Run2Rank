@@ -35,7 +35,7 @@ export default function WhyRun2Rank({
       {/* Heading */}
       <h1 className="md:text-5xl text-3xl font-bold text-center mb-16">
         {title}{" "}
-        <span className="text-[#f97316]">
+        <span className="text-[#39FF14]">
           {highlight}
         </span>
       </h1>
@@ -47,11 +47,11 @@ export default function WhyRun2Rank({
             key={index}
             className="flex items-center gap-4 bg-[#111111] border border-[#1f1f1f]
                        rounded-xl px-6 py-5
-                       hover:border-[#f97316]
+                       hover:border-[#39FF14]
                        transition-all duration-300"
           >
-            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#ff7a1a]">
-              <Check className="text-[#f97316] w-5 h-5" />
+            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#39FF14]">
+              <Check className="text-[#39FF14] w-5 h-5" />
             </div>
             <p className="text-lg font-medium">{feature}</p>
           </div>
@@ -63,7 +63,7 @@ export default function WhyRun2Rank({
         <h2 className="text-4xl md:text-5xl font-bold text-gray-300">
           {subtitleTop}
         </h2>
-        <h3 className="text-4xl md:text-5xl font-bold text-[#f97316]">
+        <h3 className="text-4xl md:text-5xl font-bold text-[#39FF14]">
           {subtitleBottom}
         </h3>
       </div>
