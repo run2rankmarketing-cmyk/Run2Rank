@@ -70,7 +70,7 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/blog"
+            href="/#"
             className={`relative ${
               isActive("/blog")
                 ? "text-orange-500 after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-orange-500"
