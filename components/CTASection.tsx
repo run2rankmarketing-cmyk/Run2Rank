@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 export default function CTASection() {
   return (
@@ -19,10 +20,10 @@ export default function CTASection() {
 
         {/* Button */}
         <div className="mt-10">
-          <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-orange-500/30">
+        <Link href="/contact-us"> <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-orange-500/30">
             Schedule a Free Consultation
             <ArrowRightIcon className="w-5 h-5" />
-          </button>
+          </button></Link> 
         </div>
       </div>
     </section>

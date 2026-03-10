@@ -25,7 +25,7 @@ export async function POST(req) {
     });
 
     await transporter.sendMail({
-      from: `"Website Contact" <${process.env.SMTP_USER}>`,
+      from: `"Run2Rank" <${process.env.SMTP_USER}>`,
       to: process.env.SMTP_TO,
       replyTo: email,
       subject: "New Contact Form Submission",

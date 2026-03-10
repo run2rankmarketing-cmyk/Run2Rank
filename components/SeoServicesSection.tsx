@@ -10,6 +10,7 @@ import {
   BarChart3,
   Globe,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function SeoServicesSection() {
   return (
@@ -64,10 +65,10 @@ export default function SeoServicesSection() {
             </div>
 
             {/* CTA */}
-            <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
+          <Link href="/contact-us">  <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
               Start Ranking Today
               <ArrowRight size={18} />
-            </button>
+            </button></Link> 
           </div>
 
           {/* RIGHT IMAGE */}

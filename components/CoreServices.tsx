@@ -1,8 +1,9 @@
 import { Code2, TrendingUp, CheckCircle2, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function CoreServices() {
   return (
-    <section className="bg-black text-white py-28 px-6">
+    <section className="bg-black text-white py-28 px-6" id="seo">
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -47,10 +48,10 @@ export default function CoreServices() {
               ))}
             </ul>
 
-            <button className="group inline-flex items-center gap-3 border border-orange-500 text-orange-500 px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
+         <Link href="/services">   <button className="group inline-flex items-center gap-3 border border-orange-500 text-orange-500 px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
               Learn More
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
-            </button>
+            </button></Link> 
           </div>
 
           {/* Card 2 */}
@@ -80,10 +81,10 @@ export default function CoreServices() {
               ))}
             </ul>
 
-            <button className="group inline-flex items-center gap-3 border border-[#f97316] text-[#f97316] px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
+           <Link href="/services"> <button className="group inline-flex items-center gap-3 border border-[#f97316] text-[#f97316] px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
               Learn More
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
-            </button>
+            </button></Link>
           </div>
 
         </div>

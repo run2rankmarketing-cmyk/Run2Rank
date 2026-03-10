@@ -20,28 +20,28 @@ const defaultTestimonials: Testimonial[] = [
   {
     name: "Priya Sharma",
     role: "Founder & CEO, TechStart India",
-    image: "/avatars/avatar1.jpg",
+    image: "/images/avatar1.jpg",
     content:
       "Run2Rank transformed our digital presence completely. From a basic website to ranking on Google's first page in 6 months. Their team understood our 0-1 journey perfectly.",
   },
   {
     name: "Michael Roberts",
     role: "Marketing Director, GreenLeaf Solutions",
-    image: "/avatars/avatar2.jpg",
+    image: "/images/avatar2.jpg",
     content:
       "We expanded from India to the US market with Run2Rank's SEO strategy. Their technical expertise and transparent reporting made all the difference. Highly recommended!",
   },
   {
     name: "Sarah Johnson",
     role: "Co-Founder, Urban Fitness UK",
-    image: "/avatars/avatar3.jpg",
+    image: "/images/avatar3.jpg",
     content:
       "The website they built is fast, beautiful, and converts. Our bounce rate dropped by 40% and conversions increased by 65%. Worth every penny.",
   },
   {
     name: "Rajesh Kumar",
     role: "CEO, FreshMart Online",
-    image: "/avatars/avatar4.jpg",
+    image: "/images/avatar4.jpg",
     content:
       "Best decision we made for our startup. Run2Rank's team is professional, responsive, and results-driven. They don't just build websites, they build growth engines.",
   },

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function WhoWeAre() {
   return (
@@ -49,10 +50,10 @@ export default function WhoWeAre() {
               , helping businesses compete and win globally.
             </p>
 
-            <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 transition-all duration-300 px-8 py-4 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
+           <Link href="/about-us"> <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 transition-all duration-300 px-8 py-4 rounded-xl text-white font-semibold shadow-lg shadow-orange-500/20">
               Learn More About Us
               <ArrowRight size={18} />
-            </button>
+            </button> </Link>
           </div>
 
         </div>

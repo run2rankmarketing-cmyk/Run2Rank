@@ -41,7 +41,7 @@ export default function Hero() {
           
           {/* Primary Button */}
           <Link
-            href="#"
+            href="/contact-us#contact"
             className="bg-[#f97316] hover:bg-orange-700 transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg shadow-orange-600/20"
           >
             Get a Free Consultation →
@@ -49,7 +49,7 @@ export default function Hero() {
 
           {/* Secondary Button */}
           <Link
-            href="#"
+            href="/portfolio"
             className="px-8 py-4 rounded-xl text-lg font-semibold border border-neutral-700 bg-neutral-900 hover:border-orange-500 hover:text-orange-500 transition"
           >
             See How We Work

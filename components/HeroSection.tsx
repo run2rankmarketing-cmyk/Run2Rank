@@ -1,5 +1,6 @@
 // components/HeroSection.tsx
 
+import Link from "next/link";
 import React from "react";
 
 export default function HeroSection() {
@@ -20,10 +21,10 @@ export default function HeroSection() {
 
         {/* CTA Button */}
         <div className="mt-10">
-          <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/40">
+         <Link  href="/contact-us#contact"> <button className="inline-flex items-center gap-3 bg-[#f97316] hover:bg-orange-600 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-orange-500/40">
             Book a Free Strategy Call
             <span className="text-xl">→</span>
-          </button>
+          </button></Link>
         </div>
 
       </div>

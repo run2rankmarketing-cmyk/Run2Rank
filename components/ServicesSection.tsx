@@ -9,10 +9,11 @@ import {
   TrendingUp,
   Globe,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function ServicesSection() {
   return (
-    <section className="bg-black text-white py-24 px-6">
+    <section className="bg-black text-white py-24 px-6" id="dev">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -74,10 +75,10 @@ export default function ServicesSection() {
               ))}
             </ul>
 
-            <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
+           <Link href="/contact-us">  <button className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-orange-600 transition px-6 py-3 rounded-lg font-medium">
               Get a Website Built for Growth
               <ArrowRight size={18} />
-            </button>
+            </button></Link>
           </div>
         </div>
 

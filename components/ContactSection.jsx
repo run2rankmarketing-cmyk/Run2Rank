@@ -86,7 +86,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full bg-black py-20 px-6">
+    <section className="w-full bg-black py-20 px-6" id="contact">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-10">
 
         {/* LEFT - FORM */}
@@ -202,11 +202,11 @@ export default function ContactSection() {
           {/* Email */}
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">
             <div className="bg-orange-500/10 p-3 w-fit rounded-lg mb-4">
-              <EnvelopeIcon className="w-6 h-6 text-[#f97316]" />
-            </div>
+              <a href="mailto:Support@run2rank.com"><EnvelopeIcon className="w-6 h-6 text-[#f97316]" />
+           </a>   </div>
             <p className="text-gray-400">Email Us</p>
-            <p className="text-white font-medium">hello@run2rank.com</p>
-          </div>
+          <a href="mailto:Support@run2rank.com"><p className="text-white font-medium">Support@run2rank.com</p>
+         </a> </div>
 
           {/* Phone */}
           <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6">

@@ -49,7 +49,7 @@ export default function Footer() {
     { name: "About Us", href: "/about-us" },
     { name: "Services", href: "/services" },
     { name: "Portfolio", href: "/portfolio" },
-    { name: "Blog", href: "/contact-us" }, // if you mean contact page
+    { name: "Contact", href: "/contact-us" }, // if you mean contact page
   ].map((item, i) => (
     <li key={i}>
       <Link
@@ -68,24 +68,24 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-6 text-lg">
               Services
             </h3>
-            <ul className="space-y-4">
-              {[
-                "Website Development",
-                "SEO Services",
-                "Technical SEO",
-                "Local SEO",
-                "International SEO",
-              ].map((item, i) => (
-                <li key={i}>
-                  <Link
-                    href="#"
-                    className="hover:text-[#f97316] transition"
-                  >
-                    {item}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+           <ul className="space-y-4">
+  {[
+    { name: "Website Development", link: "/services#dev" },
+    { name: "SEO Services", link: "/services#seo" },
+    { name: "Technical SEO", link: "/portfolio" },
+    { name: "Local SEO", link: "/portfolio" },
+    { name: "International SEO", link: "/portfolio" },
+  ].map((item, i) => (
+    <li key={i}>
+      <Link
+        href={item.link}
+        className="hover:text-[#f97316] transition"
+      >
+        {item.name}
+      </Link>
+    </li>
+  ))}
+</ul>
           </div>
 
           {/* Column 4 */}
@@ -109,7 +109,7 @@ export default function Footer() {
 
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-[#f97316] mt-1" />
-                <span>Address - 8 The Green, STE B Dover, DE 19901</span>
+                <span> 8 The Green, STE B Dover, DE 19901</span>
               </div>
             </div>
           </div>

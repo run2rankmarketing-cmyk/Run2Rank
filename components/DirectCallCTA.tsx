@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function DirectCallCTA() {
   return (
     <section className="relative py-20 px-6 bg-black text-white overflow-hidden">
@@ -13,9 +15,14 @@ export default function DirectCallCTA() {
           Schedule a free strategy call with our team
         </p>
 
-        <button className="mt-8 px-8 py-3 bg-[#f97316] hover:bg-orange-600 transition-colors duration-300 text-white font-semibold rounded-lg shadow-lg hover:shadow-orange-500/30">
-          Book a Free Consultation
-        </button>
+
+<Link
+  href="/contact-us#contact"
+  className="inline-block mt-8 px-8 py-3 bg-[#f97316] hover:bg-orange-600 transition-colors duration-300 text-white font-semibold rounded-lg shadow-lg hover:shadow-orange-500/30"
+>
+    Book a Free Consultation
+ 
+</Link>
       </div>
     </section>
   );
